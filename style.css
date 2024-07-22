@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap');
 body {
     display: flex;
     justify-content: center;
@@ -10,14 +11,17 @@ body {
     height: 10rem;
     width: 20rem;
     font-size: 2rem;
-    border: 1px solid lightgreen;
     border-radius: 2px;
-    background-color: darkgreen;
+    font-family: "Amiko", sans-serif;
+    border: 3px solid #40EAFF;
+    background-color: #26484D;
+    color: white;
+    text-transform: uppercase;
 }
 
 .clickMe:hover {
     cursor: pointer;
-    background-color: darkcyan;
+    background-color: #1A2B17;
 }
 
 .dn {
