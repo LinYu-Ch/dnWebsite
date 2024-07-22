@@ -37,3 +37,25 @@ body {
     transform: rotate(360deg) scale(2);
     transition: all 1s linear;
 }
+
+img {
+    transform: scale(10%);
+    opacity: 0;
+}
+
+.BB {
+    position: absolute;
+    z-index: -2;
+    animation: bbin 5s linear forwards;
+}
+
+@keyframes bbin {
+    from {
+        transform: scale(0%);
+        opacity: 0;
+    }
+    to {
+        transform: scale(100%);
+        opacity: 0.5;
+    }
+}
