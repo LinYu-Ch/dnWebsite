@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 2rem;
+}
+
+.clickMe {
+    height: 10rem;
+    width: 20rem;
+    font-size: 2rem;
+    border: 1px solid lightgreen;
+    border-radius: 2px;
+    background-color: darkgreen;
+}
+
+.clickMe:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+}
+
+.dn {
+    position: absolute;
+    z-index: -1;
+}
+
+.clear {
+    opacity: 0;
+    transition: all 2s linear;
+}
+.spin{
+    transform: rotate(360deg) scale(2);
+    transition: all 1s linear;
+}
